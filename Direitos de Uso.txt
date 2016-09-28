@@ -1,0 +1,5 @@
+Este programa (Diagramas de Bode) é uma criação de Cayo Vinícius Santana Santos, aluno da Universidade Federal de Sergipe, no curso de Engenharia Eletrônica.
+
+Este programa foi desenvolvido utilizando-se o software MATLAB e seus respectivos complementos.
+
+O criador permite ao professor orientador Dr. José Antônio Ferreira Leite livre uso e distribuição deste programa para fins acadêmicos.

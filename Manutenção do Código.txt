@@ -1,0 +1,14 @@
+O código deste programa pode ser facilmente editado e recompilado utilizando o Matlab.
+
+Para isso, simplesmente abra o arquivo GUI.m no editor do Matlab. Ele contém o código fonte do programa. Todas as
+variáveis e trechos de código de interesse estão contidas no arquivo, particularmente na função "criar", próxima ao
+final do arquivo, a única que possui código relevante.
+
+A função está devidamente comentada e programada com clareza de variáveis e bom espaçamento entre linhas.
+
+Alterações gráficas como por exemplo reposicionamento de objetos ou renomeação podem ser feitas de forma extremamente
+fácil utilzando o GUIDE editor gráfico do Matlab). Para isso, dentro do Matlab, clique com o botão direito no arquivo
+GUI.fig e selecione "Open in GUIDE". Todas as propriedades dos objetos podem ser acessadas clicando duas vezes sobre
+o mesmo no editor GUIDE.
+
+Ambos os arquivos GUI.m e GUI.fig devem estar contidos na "Current Folder" do Matlab para que possam ser executados em tempo real. A compilação em um executável requer o toolbox "Matlab Compiler". Matlabs que possuem todas as toolboxes irão conter o compilador. A compilação pode ser facilmente realizada utilizando o Help do Matlab, na sessão Matlab Compiler.

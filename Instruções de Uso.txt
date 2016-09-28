@@ -1,0 +1,34 @@
+Este arquivo contém as informações gerais de uso do programa:
+
+Para plotar um diagrama, simplesmente insira onde estão localizados os "w" dos zeros e pólos da função de
+transferência. O valor "n" indica o grau do respectivo zero ou pólo.
+
+Para inserir um zero duplo real em w = 100 rad/s, insira em um dos zeros:
+
+[100] [2]
+
+Isto equivale a (s + 100)^2.
+ seu grau definido. Por padrão, o grau é 0, de forma que os zeros ou pólos de grau 0
+não alteram a função de transferência.
+
+IMPORTANTE: Para que seu zero ou pólo seja mostrado no diagrama, lembre-se de "ativá-lo" mudando o grau para pelo menos 1.
+
+A checagem "DCC" indica que aquele zero ou pólo é duplo complexo conjugado. Zeros ou pólos DCC possuem sempre grau 2 e
+permitem ao usuário apenas a definição do valor de zeta.
+
+O valor de K pode ser claramente definido na sua respectiva entrada. O valor pode ser um simples escalar (ex: 10.25) como
+também uma potência de 10 (ex: 4e8 = 4 * 10^8). Todos os valores inseridos no programa podem ser definidos de ambas as
+maneiras.
+
+É possível também determinar o alcance de frequências no qual os diagramas devem ser gerados. Caso contrário, a
+determinação é automática. A determinação automática é defeituosa para distâncias muito grandes entre o menor e o maior
+zero ou pólo. Aparentemente, a partir de W/w = 10^6 (onde W é o maior zero ou pólo e w, o menor), começa a haver
+malfuncionamento da determinação automática. Para isso, basta utilizar a determinação manual.
+
+OBS: O programa leva um tempo considerável para abrir, devido a fatores como a razoável complexidade assim como
+ineficiência do compilador Matlab. Segundo o Matlab, é necessário a instalação da sua biblioteca (Matlab Compiler Runtime)
+para execução dos arquivos. O MCR pode ser baixado gratuitamente no próprio site do Matlab:
+
+(http://www.mathworks.com/products/compiler/mcr/)
+
+A versão utilizada para compilação foi R2013a (8.1) num Windows 7 64 bits.
